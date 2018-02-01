@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd7c1c42-bd54-4022-9731-c102b90329df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/controller/HelloWorldBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/controller/HelloWorldController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/dao/UserDaoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/domain/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/error/CustomizedResponseEntityExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/error/ExceptionResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/error/UserNotFoundException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/controller/UserController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restful-web-services.iml" afterPath="$PROJECT_DIR$/restful-web-services.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/controller/HelloWorldController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#235#236#0" expanded="true" />
                 <element signature="e#271#272#0" expanded="true" />
@@ -80,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/dao/UserDaoService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,13 +83,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomizedResponseEntityExceptionHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CustomizedResponseEntityExceptionHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/error/CustomizedResponseEntityExceptionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+            <state relative-caret-position="303">
+              <caret line="36" column="49" lean-forward="false" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="43" column="34" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
+                <element signature="e#1191#1192#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,7 +123,7 @@
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.3.RELEASE/spring-webmvc-5.0.3.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ResponseEntityExceptionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
-              <caret line="388" column="25" lean-forward="true" selection-start-line="388" selection-start-column="25" selection-end-line="388" selection-end-column="25" />
+              <caret line="388" column="25" lean-forward="false" selection-start-line="388" selection-start-column="25" selection-end-line="388" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -127,35 +146,8 @@
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.3.RELEASE/spring-context-5.0.3.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+              <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestController.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.3.RELEASE/spring-web-5.0.3.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorldBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/controller/HelloWorldBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -181,7 +173,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/controller/HelloWorldBean.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/controller/HelloWorldController.java" />
@@ -191,6 +182,8 @@
         <option value="$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/error/ExceptionResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/error/UserNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/error/CustomizedResponseEntityExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -456,12 +449,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517491365746</updated>
-      <workItem from="1517491367904" duration="5806000" />
+      <workItem from="1517491367904" duration="7003000" />
     </task>
+    <task id="LOCAL-00001" summary="-- Exception response handling">
+      <created>1517499574069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1517499574069</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5806000" />
+    <option name="totallyTimeSpent" value="7003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -504,6 +505,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-- Exception response handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Exception response handling" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -542,25 +547,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/controller/HelloWorldBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="false" />
+            <element signature="e#208#209#0" expanded="false" />
+            <element signature="e#242#243#0" expanded="false" />
+            <element signature="e#272#273#0" expanded="false" />
+            <element signature="e#318#319#0" expanded="false" />
+            <element signature="e#356#357#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -592,7 +589,7 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.3.RELEASE/spring-context-5.0.3.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -602,12 +599,12 @@
         <state relative-caret-position="238">
           <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#497#498#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="e#565#566#0" expanded="false" />
+            <element signature="e#599#600#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -626,7 +623,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/dao/UserDaoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -657,7 +654,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/controller/HelloWorldController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#235#236#0" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
@@ -683,17 +680,37 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.3.RELEASE/spring-webmvc-5.0.3.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ResponseEntityExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
-          <caret line="388" column="25" lean-forward="true" selection-start-line="388" selection-start-column="25" selection-end-line="388" selection-end-column="25" />
+          <caret line="388" column="25" lean-forward="false" selection-start-line="388" selection-start-column="25" selection-end-line="388" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/error/CustomizedResponseEntityExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+        <state relative-caret-position="303">
+          <caret line="36" column="49" lean-forward="false" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="43" column="34" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/in28minutes/rest/webservices/restfulwebservices/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
           </folding>
         </state>
       </provider>
