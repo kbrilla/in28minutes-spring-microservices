@@ -24,7 +24,7 @@ public class RestfulWebServicesApplication {
         return localeResolver;
     }
 
-    // we have to give name to Bean() or name function as messageSource
+    // we have to give name to Bean() or name function as me ssageSource
     @Bean
     public ResourceBundleMessageSource messageSource() {
         ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
