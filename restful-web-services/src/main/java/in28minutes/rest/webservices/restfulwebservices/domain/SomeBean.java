@@ -1,15 +1,17 @@
 package in28minutes.rest.webservices.restfulwebservices.domain;
 
+import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.context.annotation.Bean;
 
-@JsonIgnoreProperties(value = {"s2"})
+//@JsonIgnoreProperties(value = {"s2"})
+@JsonFilter("SomeBeanFilter")
 public class SomeBean {
     private final String s;
     private final String s1;
 
-    @JsonIgnore
+//    @JsonIgnore
     private final String s2;
 
     public SomeBean(String s, String s1, String s2) {
